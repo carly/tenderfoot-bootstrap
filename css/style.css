@@ -465,11 +465,27 @@ footer .footer-below {
 #foot {
     background-color: #ED382F;
 }
-
-.nav collapse navbar-collapse {
-    background-color: #12A0C4;
+.nav {
+    background-color: #ED382F;
 }
 
 .img-responsive {
     width:800px ;
 }
+
+.sign-in {
+    background: linear-gradient(transparent 100%),
+              linear-gradient(85deg, #000, transparent), 
+              #000 url('../img/Little-Village-1.jpg') no-repeat;
+    background-position: cover;
+    background-size: 1300px 600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 500px;
+
+};
+
+.sign-box {
+    border: 5px solid #fff;
+    };
